@@ -1,0 +1,12 @@
+- files:
+    - "**/*.js"
+  languageOptions:
+    sourceType: "commonjs"
+
+- languageOptions:
+    globals: 
+      browser: true
+
+- pluginJs:
+    configs:
+      recommended: true
